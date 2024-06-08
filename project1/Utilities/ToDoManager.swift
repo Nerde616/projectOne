@@ -21,4 +21,18 @@ class ToDoManager {
         
     }
     
+    
+    func addTask(task: ToDo  ) {
+        self.toDoList.append(task)
+    }
+    
+    func removeTask(task: ToDo) {
+        self.toDoList.removeAll {
+            $0.id == task.id
+        }
+    }
+    
 }
+
+
+

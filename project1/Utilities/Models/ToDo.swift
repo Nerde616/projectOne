@@ -10,6 +10,7 @@ import Foundation
 class ToDo {
     var name: String
     var description: String
+    var id = UUID()
     
     init(name: String, description: String) {
         self.name = name

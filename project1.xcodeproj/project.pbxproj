@@ -56,6 +56,8 @@
 		667C907B2C14F738007701FE /* project1 */ = {
 			isa = PBXGroup;
 			children = (
+				667C90922C14FC85007701FE /* Views */,
+				667C90912C14FC79007701FE /* Utilities */,
 				667C907C2C14F738007701FE /* AppDelegate.swift */,
 				667C907E2C14F738007701FE /* SceneDelegate.swift */,
 				667C90802C14F738007701FE /* ViewController.swift */,
@@ -65,6 +67,20 @@
 				667C908A2C14F739007701FE /* Info.plist */,
 			);
 			path = project1;
+			sourceTree = "<group>";
+		};
+		667C90912C14FC79007701FE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		667C90922C14FC85007701FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

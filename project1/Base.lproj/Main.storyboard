@@ -32,14 +32,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="DI4-rO-cFh">
-                                <rect key="frame" x="16" y="161" width="240" height="500"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="DI4-rO-cFh">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hhp-vl-hPE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DI4-rO-cFh" firstAttribute="leading" secondItem="hhp-vl-hPE" secondAttribute="leading" id="1rV-0v-MDr"/>
+                            <constraint firstAttribute="bottom" secondItem="DI4-rO-cFh" secondAttribute="bottom" id="Unj-9R-MOk"/>
+                            <constraint firstItem="DI4-rO-cFh" firstAttribute="top" secondItem="j8v-wI-DUQ" secondAttribute="top" id="XDp-Po-eiv"/>
+                            <constraint firstItem="DI4-rO-cFh" firstAttribute="trailing" secondItem="hhp-vl-hPE" secondAttribute="trailing" id="Ys6-P7-tYk"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fV5-jt-4gb"/>
                 </viewController>

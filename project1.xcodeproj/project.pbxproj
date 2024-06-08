@@ -69,7 +69,6 @@
 				667C90852C14F739007701FE /* Assets.xcassets */,
 				667C90872C14F739007701FE /* LaunchScreen.storyboard */,
 				667C908A2C14F739007701FE /* Info.plist */,
-				EEF9F9C42C14FE6400B87DEB /* ToDo.swift */,
 			);
 			path = project1;
 			sourceTree = "<group>";
@@ -77,6 +76,7 @@
 		667C90912C14FC79007701FE /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				EEF9F9C62C15020300B87DEB /* Models */,
 				66639E0D2C14FE2900A6E376 /* ToDoManager.swift */,
 			);
 			path = Utilities;
@@ -87,6 +87,14 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EEF9F9C62C15020300B87DEB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9F9C42C14FE6400B87DEB /* ToDo.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
